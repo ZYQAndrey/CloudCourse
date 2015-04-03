@@ -1,0 +1,32 @@
+﻿@{
+    ViewBag.Title = "Hand On Labs";
+}
+<h2>@ViewBag.Title</h2>
+
+<section class="content">
+    <p>
+        The Training Kit includes step-by-step hands-on labs designed to help you improve you Microsoft Azure skills. You can browse through the complete list of hands-on lab below. To get started with a hands-on lab, simply install the necessary prerequisites and follow the setup procedures described for each lab.
+    </p>
+    <ul class="list-group">
+        <li class="list-group-item">
+            <a name="Lab1"></a>
+            <h3>Lab 1. Getting Started with the Azure Preview Portal</h3>
+            <p>The new Azure Preview portal is an all-in-one, work-anywhere experience. Now you can manage websites, databases, and Visual Studio Online team projects in a reimagined UX personalized to your work style. In this Hands-on lab, you will learn how to create a new resource group by building a Website and a SQL Server, and set up continuous deployment using Team Project</p>
+            <ul class="links">
+                <li>@Html.ActionLink("Lab Manual", "Lab1", "Labs")</li>
+                @*<li><a href="\Labs\MVC4Fundamentals\Source.zip">Lab Files</a></li>*@
+            </ul>
+        </li>
+        <li class="list-group-item">
+            <a name="Lab2"></a>
+            <h3>Lab 2. Building and Publishing ASP.NET Applications with Windows Azure Web Sites</h3>
+            <p>In this hands-on lab, you will explore the basic elements of the Windows Azure Web Sites service by creating a simple ASP.NET MVC 5 application, which uses scaffolding to automatically generate the baseline of your application's CRUD (Create, Read, Update and Delete). Then, you will deploy it using Web Deploy from Microsoft Visual Studio and finally, you will enable source control and use Git to publish directly from your local computer</p>
+            <ul class="links">
+                <li>@Html.ActionLink("Lab Manual", "Lab2", "Labs")</li>
+                <li><a href="\Sources\Lab2\Source.zip">Lab Files</a></li>
+            </ul>
+        </li>
+    </ul>
+    <div class="topOfPage"><a href="#top">Top of page</a></div>
+</section>
+
